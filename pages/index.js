@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Script from 'next/script';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {

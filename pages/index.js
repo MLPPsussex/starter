@@ -9,7 +9,9 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+        <script src="https://connect.facebook.net/en_US/sdk.js" />
+    </Head>
+ 
 
       <main>
         <h1 className={styles.title}>

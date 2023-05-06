@@ -7,18 +7,18 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
 
-
 // Create a canvas element
 var c1 = document.createElement('Canvas1');
 var ctx = c1.getContext('2d');
-
-// Set the size of the canvas
 c1.width = 500;
 c1.height = 500;
-
-// Set the font size and style
-const fontSize = 36;
+  const fontSize = 36;
 ctx.font = `${fontSize}px monospace`;
+
+  ctx.fillText("test",100,200)
+  alert("cycling through alphabet")
+
+/*
 
 // Define the characters to render
 const characters = 'abcdefghijklmnopqrstuvwxyz';
@@ -42,6 +42,7 @@ for (let i = 0; i < characters.length; i++) {
   bitmaps[char] = bitmap;
 }
 
+  
 // Function to draw text using the bitmaps
 function drawText(text, x, y, scale) {
   for (let i = 0; i < text.length; i++) {
@@ -58,6 +59,7 @@ function drawText(text, x, y, scale) {
 
 // Example usage
 drawText('hello world', 50, 50, 2);
+*/
 
   </script>
   </body>
